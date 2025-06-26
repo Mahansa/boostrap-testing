@@ -1,21 +1,19 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!-- menggunakan boostrap versi 3 -->
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"><!-- menggunakan font lobster-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  <!-- menggunakan boostrap V3 -->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"><!--menggunakan icon dari fontawesome-->
 
 </head>
 <body>
  
 <style>
   h2 {
-    font-family: Lobster, Monospace;
+    font-family: Lobster, Monospace; /*Memanggil font lobster dari link*/
   }
 
   .thick-green-border {
@@ -38,13 +36,15 @@
   <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" class="img-responsive" alt="Three kittens running towards the camera.">
   <div class="row">
     <div class="col-xs-4">
-      <button class="btn btn-block btn-primary">Like</button>
+       
+      <button class="btn btn-block btn-primary"><i class="fas fa-thumbs-up">Like</i></button>
+      </i>
     </div>
     <div class="col-xs-4">
-      <button class="btn btn-block btn-info">Info</button>
+      <button class="btn btn-block btn-info"><span class="fas fa-info-circle"></span>Info</button>
     </div>
     <div class="col-xs-4">
-      <button class="btn btn-block btn-danger">Delete</button>
+      <button class="btn btn-block btn-danger"><span class="fas fa-trash"></span>Delete</button>
     </div>
   </div>
   <p>Things cats <span class="text-danger">love:</span></p>
